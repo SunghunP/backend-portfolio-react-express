@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Game Shack",
+    "live": "https://game-shack-sunghunp.herokuapp.com/",
+    "git": "https://github.com/SunghunP/game-shack",
+    "image": "https://i.imgur.com/vcdaMlm.jpeg"
+  },
+  {
+    "name": "Currency Exchange",
+    "live": "https://sunghunp.github.io/Currency-Exchange/",
+    "git": "https://github.com/SunghunP/Currency-Exchange",
+    "image": "https://i.imgur.com/gqScQKa.png"
+  }
+]
