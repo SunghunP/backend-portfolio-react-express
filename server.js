@@ -28,7 +28,7 @@ app.get("/about", (req, res) => {
 });
 
 // Declare PORT var
-const PORT = 3000;
+const PORT = 4000;
 
 // Listen route
 app.listen(PORT, () => {
