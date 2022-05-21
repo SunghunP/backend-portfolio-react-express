@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // Import dependencies
 const express = require("express");
 const cors = require("cors");
@@ -24,11 +26,11 @@ app.get("/projects/", (req, res) => {
 
 app.get("/about", (req, res) => {
   // Send about via JSON
-  res.json(about); 
+  res.json(about);
 });
 
 // Declare PORT var
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 // Listen route
 app.listen(PORT, () => {
